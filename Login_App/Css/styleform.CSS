@@ -1,0 +1,183 @@
+body {
+    padding: 4.5rem;
+    margin: 0;
+    background: #fffffe;
+    background: linear-gradient(90deg, #6246ea 0, #d1d1e9 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+h3, label{
+    color: #2b2c34;
+    text-align: center;
+}
+
+@media screen and (min-width: 1025px){
+    .pantalla{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 60%;
+        height: 101%;
+        background: rgba(47, 47, 47, 0.2);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+
+    #ropa{
+        position: absolute;
+        display: inline-flex;
+        top: 0;
+        left: 0;
+        width: 60%;
+        float: left;
+        z-index: -1;
+    }
+
+    #ropa2{
+        position: absolute;
+        display: inline-flex;
+        top: 60%;
+        left: 15%;
+        width: 60%;
+        float: left;
+        z-index: -1;
+    }
+    
+    .form {
+        float: right;
+        width: 32%;
+        height: auto;
+        padding: 2rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, .7);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #app{
+        text-align: center;
+        padding: 1rem;
+    }
+    .logo_App{ 
+        display: inline-flex;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    #cambiar{
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
+    #crear{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+    .enlace{
+        text-decoration: none;
+        color: #6246ea;
+    }
+
+     #login_alter{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    #facebook{
+        margin-right: 15px;
+    }
+    
+    #google{
+        margin-left: 15px;
+    }
+
+    .boton_enviar{
+        padding: 0.4rem;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        background-color: #6246ea;
+        color: #fffffe;
+        transition-duration: 0.4s;
+    }
+    
+    .boton_enviar:hover{
+        background-color: #2b2c34;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #ropa{
+        display: none;
+    }
+
+    #ropa2{
+        display: none;
+    }
+
+    .form {
+        height: auto;
+        padding: 2rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, .5);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #app{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .logo_App{ 
+        display: inline-flex;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    #cambiar{
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
+    #crear{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    
+    .enlace{
+        text-decoration: none;
+        color: #6246ea;
+    }
+
+    #login_alter{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    #facebook{
+        margin-right: 15px;
+    }
+
+    #google{
+        margin-left: 15px;
+    }
+
+    .boton_enviar{
+        padding: 0.4rem;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        background-color: #6246ea;
+        color: #fffffe;
+        transition-duration: 0.4s;
+    }
+
+    .boton_enviar:hover{
+        background-color: #2b2c34;
+    }
+}
+
